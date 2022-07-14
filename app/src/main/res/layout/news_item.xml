@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivThunbnai"
-        tools:text="Inter Vence o Gremio" />
+        tools:text="" />
 
     <TextView
         android:id="@+id/tvDescription"
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle"
-        tools:text="Depois de uma vitoria emocionante em cima do gremio o inter segue invicto na competição" />
+        tools:text="" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btOpenLink"
@@ -53,8 +53,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDescription"
         app:layout_constraintTop_toBottomOf="@+id/tvDescription"
-
-        tools:text="Veja mais" />
+        android:text="Link" />
 
 
     <ImageView
